@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/wicked.min.css">
+  </head>
+  <body>
+    <div>
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand navName" href="#">G. Yokoi</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/pageTwo.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/pageThree.html">Inventions</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/pageFour.html">Life and Influence</a>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </div>
+
+<div class="container mainPage">
+    <div class="card pageTwo cardBorders" style="max-width: 1000px;">
+        <div class="row g-0">
+          <div class="col-md-4 fadeIn">
+            <img src="../assets/techDesk.jpeg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title titleName">From Janitor to Superstar</h5>
+              <p id="cardTextTwo" class="card-text mt-5">Born in Kyoto, Japan on September 10, 1941, Gunpei Yokoi began working at Nintendo in 1965 when the company was mainly manufacturing hanafuda cards (a style of Japanese playing cards) and standard playing cards. He had various jobs at the factory, including being a janitor, but filled his spare time by experimenting with machinery, even creating an extendable arm toy. Gunpei would go on to be a pivotal piece of Nintendo's DNA, as the original designer of the Game Boy, the first in a long line of best-selling handhelds from the company. 
+            <br>
+            <br>
+                Gunpei Yokoi In one of those cosmic moments, Yokoi's invention caught the eye of the president of Nintendo, Hiroshi Yamauchi. Nintendo itself was undergoing changes, too, as Yamauchi was looking far beyond the primary card business. Yokoi's invention was a perfect product to start the shift. Yamauchi wanted Yokoi's invention on store shelves in time for the upcoming holiday. Yokoi obliged Yamauchi, perfecting the toy and releasing it as the Ultra Hand. The Ultra Hand ended up selling over 1.2 million units. Nintendo was now also a toy company. And Yokoi was one of its newest star players.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./script/app.js"></script>
+  </body>
+</html>
